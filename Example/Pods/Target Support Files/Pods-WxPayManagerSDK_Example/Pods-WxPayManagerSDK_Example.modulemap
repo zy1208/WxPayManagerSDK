@@ -1,0 +1,6 @@
+framework module Pods_WxPayManagerSDK_Example {
+  umbrella header "Pods-WxPayManagerSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

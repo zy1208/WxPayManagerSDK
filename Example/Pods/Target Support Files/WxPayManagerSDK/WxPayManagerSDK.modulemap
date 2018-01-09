@@ -1,0 +1,6 @@
+framework module WxPayManagerSDK {
+  umbrella header "WxPayManagerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'WxPayManagerSDK_Example' do
+  pod 'WxPayManagerSDK', :path => ‘../’
+
+  target 'WxPayManagerSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
