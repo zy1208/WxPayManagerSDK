@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WxPayManagerSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of WxPayManagerSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -43,8 +43,8 @@ TODO: Add long description of the pod here.
 
 # s.frameworks = 'CFNetwork', 'SystemConfiguration', 'Security', 'CoreTelephony'
 # s.ios.library = 'c++','sqlite3.0','z'
-# s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-# s.vendored_libraries = 'WxPayManagerSDK/Classes/WxPayManagerSDK/Wx/*.a'
+#  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+#  s.vendored_libraries = 'WxPayManagerSDK/Classes/WxPayManagerSDK/Wx/*.a'
   s.vendored_frameworks = 'WxPayManagerSDK/Classes/WxPayManagerSDK/WxPayManagerSDK.framework'
   
 end
