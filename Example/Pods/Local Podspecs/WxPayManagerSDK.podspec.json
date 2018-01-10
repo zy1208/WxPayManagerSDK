@@ -1,6 +1,6 @@
 {
   "name": "WxPayManagerSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of WxPayManagerSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zy1208/WxPayManagerSDK",
@@ -13,10 +13,28 @@
   },
   "source": {
     "git": "https://github.com/zy1208/WxPayManagerSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "WxPayManagerSDK/Classes/**/*"
+  "source_files": "WxPayManagerSDK/Classes/**/*",
+  "frameworks": [
+    "CFNetwork",
+    "SystemConfiguration",
+    "Security",
+    "CoreTelephony"
+  ],
+  "ios": {
+    "libraries": [
+      "c++",
+      "sqlite3.0",
+      "z"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "vendored_libraries": "WxPayManagerSDK/Classes/WxPayManagerSDK/Wx/*.a",
+  "vendored_frameworks": "WxPayManagerSDK/Classes/WxPayManagerSDK/WxPayManagerSDK.framework"
 }

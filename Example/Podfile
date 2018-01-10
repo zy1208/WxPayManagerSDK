@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://gitee.com/zy1208i/WxPayManagerSDK'
+
+
 target 'WxPayManagerSDK_Example' do
   pod 'WxPayManagerSDK', :path => ‘../’
 
